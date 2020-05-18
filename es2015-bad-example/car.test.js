@@ -1,3 +1,5 @@
+const assert = require('assert').strict;
+
 const Car = require('./car.js');
 
 describe('Teste da unidade Car', () => {
