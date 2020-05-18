@@ -1,0 +1,14 @@
+{
+  "name": "es2015-good-example",
+  "version": "1.0.0",
+  "description": "Dependency injection and unit test",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx nyc --reporter=lcov --reporter=text-summary ./node_modules/mocha/bin/mocha **.test.js"
+  },
+  "author": "Filipe M. Silva",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^7.1.2"
+  }
+}
