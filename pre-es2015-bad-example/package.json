@@ -1,0 +1,14 @@
+{
+  "name": "pre-es2015-bad-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha **.test.js"
+  },
+  "author": "Filipe M. Silva",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^7.1.2"
+  }
+}
